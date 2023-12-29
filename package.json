@@ -1,0 +1,22 @@
+{
+  "name": "color-generator",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "generate": "node ./src/theme.mjs"
+  },
+  "repository": {
+    "url": "git://github.com/Symblight/color-generator.git"
+  },
+  "author": "",
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "colord": "^2.9.3"
+  }
+}
